@@ -1,8 +1,8 @@
 <template>
   <div>
     <create-event v-if="eventModal" v-model="eventModal" @close="eventModal = false"></create-event>
-    <v-btn @click="eventModal = true" color="primary"><v-icon size="24">mdi-plus</v-icon></v-btn>
-<!--    <event-table events="events"></event-table>-->
+    <v-btn @click="eventModal = true" color="primary">Create An Event</v-btn>
+    <event-table :items="events"></event-table>
   </div>
 </template>
 

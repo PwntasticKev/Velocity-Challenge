@@ -26,6 +26,8 @@
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.3",
     "chromedriver": "^106.0.1",
+    "eslint": "^8.48.0",
+    "eslint-plugin-vue": "^9.17.0",
     "nightwatch": "^2.3.9"
   }
 }
